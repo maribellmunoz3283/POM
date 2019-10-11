@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="registrar una solicutud medica a través del sistema de admin hospitales, se debe validar que haya doctor" skipped="0" tests="3" time="27.64" timestamp="2019-10-09T11:29:01.211-05:00[America/Bogota]"><testcase name="Realizar el Registro de un Doctor"/><testcase name="Realizar el Registro de un Paciente"><failure message="&#10;Expected: a string containing &quot;Datos guardados correctamente.&quot;&#10;     but: was &quot;No se pudo guardar debido a:&#10;*El campo 'Documento de identidad' ya esta registrado.&quot;" type="java.lang.AssertionError">
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' ya esta registrado."</failure><system-err>
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' ya esta registrado."&#13;
+com.choucair.formacion.pageobjects.regdoctorPageObject.VerificaPaciente(regdoctorPageObject.java:127)&#13;
+com.choucair.formacion.steps.regPacienteSteps.VerificaPaciente(regPacienteSteps.java:17)&#13;
+com.choucair.formacion.definition.regPacienteDefinitions.verifica_que_se_presente_en_pantalla_el_mensaje_Datos_guardados_correctamente(regPacienteDefinitions.java:23)&#13;
+</system-err></testcase><testcase name="Realizar el Agendamiento de una Cita"><failure message="&#10;Expected: a string containing &quot;Datos guardados correctamente.&quot;&#10;     but: was &quot;No se pudo guardar debido a:&#10;*El campo 'Documento de identidad' no se encuentra entre nuestros doctores.&quot;" type="java.lang.AssertionError">
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' no se encuentra entre nuestros doctores."</failure><system-err>
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' no se encuentra entre nuestros doctores."&#13;
+com.choucair.formacion.pageobjects.regdoctorPageObject.VerificaCita(regdoctorPageObject.java:150)&#13;
+com.choucair.formacion.steps.regcitasSteps.VerificaCita(regcitasSteps.java:18)&#13;
+com.choucair.formacion.definition.regCitaDefinitions.el_verifica_que_se_presente_en_pantalla_mensaje_Datos_guardados_correctamente(regCitaDefinitions.java:25)&#13;
+</system-err></testcase></testsuite>

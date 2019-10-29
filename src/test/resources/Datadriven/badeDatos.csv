@@ -1,2 +1,2 @@
-id,required,email,password,confirm_password,date,url,digits,range
-001,Maribell,mari@gmail.com,123456,123456,19/10/2019,https://colorlib.com/polygon/metis/form-validation.html,123,7
+id,departamento,ciudad,elegirTienda,precio
+001,Antioquia,Medellín,Tienda Las Vegas,200000

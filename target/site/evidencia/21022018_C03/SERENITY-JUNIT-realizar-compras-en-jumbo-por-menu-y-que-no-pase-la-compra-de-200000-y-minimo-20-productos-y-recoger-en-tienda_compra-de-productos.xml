@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="realizar compras en jumbo por menu y que no pase la compra de 200000 y minimo 20 productos y recoger en tienda" skipped="0" tests="1" time="0.7" timestamp="2019-10-22T11:00:10.907-05:00[America/Bogota]"><testcase name="compra de productos"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.choucair.formacion.definition.Comprar.registramos_los_datos_de_entrega(Comprar.java:18)&#13;
+✽.Given registramos los datos de entrega "001"(src/test/resources/Features/comprar.feature:5)&#13;
+</system-err></testcase></testsuite>

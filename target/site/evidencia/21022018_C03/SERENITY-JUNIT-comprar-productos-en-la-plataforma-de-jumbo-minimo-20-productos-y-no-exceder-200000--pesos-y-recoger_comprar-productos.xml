@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Comprar productos en la plataforma de Jumbo minimo 20 productos y no exceder 200000  pesos y recoger" skipped="0" tests="1" time="151.68" timestamp="2019-10-29T14:50:29.782-05:00[America/Bogota]"><testcase name="Comprar productos"><failure message="&#10;Expected: a string containing &quot;venta&quot;&#10;     but: was &quot;Mi Carrito&quot;" type="java.lang.AssertionError">
+Expected: a string containing "venta"
+     but: was "Mi Carrito"</failure><system-err>
+Expected: a string containing "venta"
+     but: was "Mi Carrito"&#13;
+com.choucair.formacion.pageobjects.ComprarPage.validarCompra(ComprarPage.java:193)&#13;
+com.choucair.formacion.steps.ComprarStep.validarCarrito(ComprarStep.java:75)&#13;
+com.choucair.formacion.definition.Comprardefinition.validamos_carrito_de_compras(Comprardefinition.java:41)&#13;
+</system-err></testcase></testsuite>
